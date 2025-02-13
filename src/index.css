@@ -1,0 +1,90 @@
+nav {
+  background-color: #5f5151;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  background-color: #5f5151;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+h2 {
+  background-color: #5f5151;
+}
+
+aside {
+  width: 200px;
+  background-color: bisque;
+  padding: 10px;
+  float: left;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+:root { /* :root hace referencia al elemto raiz es global */
+  background-color: bisque;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root { /* #root es un selector que hace referencia al id root es más específico */
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  line-height: 1.5;
+  font-weight: 200;
+  color-scheme: light dark;
+  color: white;
+  background-color: aquamarine;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+@keyframes cambiarColor {
+  0% {
+    transform: 25% 50%;
+  }
+
+  100% {
+    transform: 50% 100%;
+  }
+}
+
+button {
+  padding: 10px;
+  background-color: #0ef12c;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 50px;
+  margin: 10px;
+  border: none;
+}
+
+input {
+  width: 50%;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
